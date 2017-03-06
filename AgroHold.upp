@@ -1,0 +1,35 @@
+uses
+	CtrlLib,
+	GridCtrl,
+	plugin/sqlite3,
+	DropGrid,
+	ScatterCtrl;
+
+file
+	main.cpp,
+	AgroHold.lay,
+	AgroHold.iml,
+	AgroHold.sch,
+	Convert.h,
+	PanProject.h,
+	PanType.h,
+	PanCult.h,
+	PanFields.h,
+	PanPop.h,
+	PanEnergo.h,
+	PanMash.h,
+	PanMatType.h,
+	PanMaterials.h,
+	PanOper.h,
+	PanTech.h,
+	PanSiv.h,
+	PanPosiv.h,
+	PanZbir.h,
+	PanGraph.h,
+	PanScOper.h,
+	lp_lib.h,
+	liblpsolve55.lib;
+
+mainconfig
+	"" = "GUI MT";
+

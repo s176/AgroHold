@@ -1,0 +1,16 @@
+LAYOUT(AgroHoldLayout, 800, 600)
+END_LAYOUT
+
+LAYOUT(PanelLayout, 276, 200)
+END_LAYOUT
+
+LAYOUT(ProjectLayout, 560, 424)
+	ITEM(Label, dv___0, SetLabel(t_("Назва проекту")).LeftPosZ(20, 92).TopPosZ(20, 21))
+	ITEM(Label, dv___1, SetLabel(t_("Поточний рік")).LeftPosZ(20, 92).TopPosZ(48, 21))
+	ITEM(Label, dv___2, SetLabel(t_("Горизонт планування")).LeftPosZ(20, 116).TopPosZ(76, 21))
+	ITEM(EditString, edName, LeftPosZ(140, 412).TopPosZ(20, 19))
+	ITEM(EditInt, edYear, LeftPosZ(140, 56).TopPosZ(48, 19))
+	ITEM(EditInt, edHorizont, LeftPosZ(140, 36).TopPosZ(76, 19))
+	ITEM(Label, dv___6, SetLabel(t_("років")).LeftPosZ(180, 48).TopPosZ(76, 21))
+END_LAYOUT
+
